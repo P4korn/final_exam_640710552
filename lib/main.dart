@@ -1,3 +1,5 @@
+import 'package:final_exam_640710552/answer1.dart';
+import 'package:final_exam_640710552/answer2.dart';
 import 'package:final_exam_640710552/profilecard.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Profilecard(),
+      home: const DeliveryCalculator(),
     );
   }
 }
